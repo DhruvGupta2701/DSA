@@ -21,5 +21,14 @@ int main()
     for(auto i:s)
     {
         cout<<i<<endl;
-    }
-}
+
+    cout<<endl;
+    //find the element is present int set or not
+    cout<<"is present "<<s.count(7)<<endl;
+
+    set<int>::iterator itr = s.find(5);
+
+    for(auto it = itr; it!=s.end();it++)
+    {
+        cout<<*it<<" ";
+    }cout<<endl;}
