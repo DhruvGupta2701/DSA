@@ -13,4 +13,12 @@ int main()
         //expression cannot be used as function
         cout<<i.first<<" "<<i.second<<" "<<endl;
     }
+    cout<<endl;
+    cout<<"find the element "<<m.count(-13)<<endl;
+    m.erase(5);
+    cout<<"After erase "<<endl;
+    for(auto i:m)
+    {
+        cout<<i.first<<" " <<i.second<<" " <<endl;
+    }
 }
